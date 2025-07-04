@@ -3,7 +3,7 @@ import { Sequelize } from 'sequelize';
 import dotenv from 'dotenv';
 dotenv.config();
 
-import { createUserModel } from '../model/userSchema.js';
+import { createUserModel } from '../model/userSchema';
 
 // Use DB_URL from .env for flexibility
 const sequelize = new Sequelize(process.env.DB_URL, {

@@ -3,7 +3,7 @@ const sequelize = require('../config/db');
 
 // Avoid circular imports
 const User = require('./User');
-const Event = require('./Event');
+const Event = require('./User');
 
 const Registration = sequelize.define('Registration', {
   id: {

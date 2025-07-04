@@ -10,7 +10,7 @@ const {
 const {
   registerForEvent,
   getUserRegistrations
-} = require('../controllers/registrationController');
+} = require('../controller/registrationController');
 
 const authenticateToken = require('../middlewares/authMiddleware');
 

@@ -3,7 +3,7 @@ const sequelize = require('../config/db');
 
 // Avoid circular imports during model registration
 const User = require('./User');
-const Location = require('./Location');
+const Location = require('./locations');
 
 const Event = sequelize.define('Event', {
   id: {
